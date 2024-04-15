@@ -35,3 +35,6 @@ class Circle {
     this.setColor(newColor);
   }
 }
+
+const c = new Circle(2, "red")
+c.color = "yellow"
